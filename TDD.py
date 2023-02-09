@@ -34,13 +34,6 @@ def test(numberOfInches):
 
 print(test(numberOfInches))
 
-#måten formen det skal være på er
-#output = funksjon() 
-#expected output = KONKRET VERDI
-#if output = expected output
-#   print ('rett')
-#else
-#   print ("feil")
 
 successmsg = ('Grønn: Suksess det funker fint')
 errormsg = ('Rød: Det funker ikkje prøv igjen')
