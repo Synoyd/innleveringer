@@ -12,9 +12,9 @@
 list1 = [1,2,3]
 list2 = ["A","B","C"]
 def mergeArrays(list1, list2):
-    mergedList = []
-    mergedList.append = (list1, list2)
-    
+    mergedList = [*list1, *list2]
+   
     return mergedList
 
-mergeArrays(list1, list2)
+
+print(mergeArrays(list1, list2))

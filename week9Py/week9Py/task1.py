@@ -13,8 +13,11 @@
 
 """
 
-dev GetFirstVALUE_Of_Thing(thingy):
-    retunr thingy[0]
+
+testord = "test"
+def GetFirstVALUE_Of_Thing(thingy):
+    return thingy[0]
 
 
 
+print (GetFirstVALUE_Of_Thing(testord))

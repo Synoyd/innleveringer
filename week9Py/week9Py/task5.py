@@ -18,3 +18,13 @@
 
     Remember that quality of code (naming, structure etc.) is important
 """
+
+SquareSize = 10
+
+def squareMAKER(sqSize):
+    for i in range(sqSize):
+        for j in range(sqSize):
+            print ("*", end=" ")
+        print()
+
+print(squareMAKER(SquareSize))

@@ -12,3 +12,14 @@
 
     Remember that quality of code (naming, structure etc.) is important
 """
+number = 1234567869
+
+def freqOfDigit(number):
+    freqArray = [0] * 10 
+    while number > 0:
+        digit = number % 10 
+        freqArray[digit] += 1 
+        number //= 10 
+    return freqArray
+
+print(freqOfDigit(number))

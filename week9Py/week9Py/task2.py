@@ -10,3 +10,14 @@
     Remember that quality of code (naming, structure etc.) is important
 
 """
+number = 123
+
+def sumOfNumber(number):
+    number = 987654321
+    result = []
+    for n in str(number):
+	    result.append(int(n))
+        
+    return sum(result)
+
+print (sumOfNumber(number))
